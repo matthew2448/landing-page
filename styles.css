@@ -1,5 +1,6 @@
 .container-one{
     background-color: #1F2937;
+    padding: 40px;
 }
 
 .header-links{
@@ -43,6 +44,7 @@
     /* align-items: center; */
     text-align: center;
     flex-wrap: wrap;
+    padding: 40px;
 }
 
 .container-two-title{
@@ -79,6 +81,7 @@
     background-color: #E5E7EB;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 40px;
 }
 
 .quote{
@@ -92,6 +95,29 @@
     font-size: 24px;
     font-weight: bold;
     font-style: italic;
+}
+
+.container-four{
+    display: flex;
+    padding: 40px;
+    justify-content:center;
+}
+
+.rectangle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container-four h4{
+
+}
+.container-four p{
+
+    
+}
+.container-four button{
+
 }
 
 /* Hero Main Text 48px extra-bold #F9FAF8 */
