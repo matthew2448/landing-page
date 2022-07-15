@@ -37,6 +37,63 @@
     align-items: flex-start;
 }
 
+.container-two{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.container-two-title{
+    display: flex;
+    justify-content: center;
+    flex: 1 1 auto;
+}
+
+.container-two-images{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    justify-content: space-around;
+    vertical-align: top;
+    
+}
+
+.container-two-text {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    justify-content: space-around;
+    vertical-align: top;
+
+}
+
+.container-two-images img{
+    height: 100px;
+    width: 100px;
+}
+
+.container-three{
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.quote{
+    
+    font-size: 36px;
+    font-style: oblique;
+}
+
+.quote-author{
+    
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+
 /* Hero Main Text 48px extra-bold #F9FAF8 */
 /* Hero Secondary text, Header Link Text 18px #E5E7EB */
 /* Header Logo Text, 24px #F9FAF8 */
